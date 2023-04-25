@@ -1,7 +1,7 @@
 # ASCII-ART-WEB 
 in this project you can use "ASCII-ART" project in http server, choosing fonts, and after writing some text, you can send for one font or choose test all functions to see all functions.
 
-# @Muratali and @asharip authors for this project 
+# @Muratali author for this project 
 
 # Using 
 You can download this project, after this go to the cmd, and run project.
