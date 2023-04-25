@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ASCII-ART-WEB</title>
+    <link rel="stylesheet" href="/fonts/style.css">
+</head>
+
+<body>
+<header>
+    <h1>Ascii-Art-Web</h1>
+</header>
+
+<form action="/ascii-art" method="post">
+    <label for="fonts">Choose font:</label>
+
+    <select name="fonts" id="banner">
+        <option value="Standard">Standard</option>
+        <option value="Shadow" selected>Shadow</option>
+        <option value="Thinkertoy">Thinkertoy</option>
+    </select>
+
+    <textarea name="ascii_convert"></textarea>
+    <button type="submit">Send</button>
+    <button id="testAll" value="all" name="allBanner">Test All</button>
+
+</form>
+
+<div id="output">
+
+    <div id="outputtext">
+        <pre>{{.}}</pre>
+    </div>
+
+</div>
+
+<div id="text">
+    <form>
+        <input type="button" value="History" onclick="history.back()">
+    </form>
+        &emsp;
+
+    <form action="http://localhost:3333/home">
+        <input type="submit" value="Home">
+    </form>
+</div>
+
+</body>
+</html>
